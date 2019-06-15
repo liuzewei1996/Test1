@@ -45,7 +45,7 @@ public class OOMTest {
                 list.add(String.valueOf(++i).intern());
             }
         }catch (Exception e){
-            System.out.println("**************i:"+i);
+            System.out.println("********************i:"+i);
             e.printStackTrace();
             throw e;
         }//java.lang.OutOfMemoryError: GC overhead limit exceeded
